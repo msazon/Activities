@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<title>Activity # 3</title>
+<head>  
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <style>
+    body {font-family: calibri;}
+
+    /* Style the tab */
+    .tab {
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #f1f1f1;
+
+    }
+
+    /* Style the buttons inside the tab */
+    .tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+    }
+
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+      background-color: #ddd;
+    }
+
+    /* Create an active/current tablink class */
+    .tab button.active {
+      background-color: #ccc;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-top: none;
+    }
+
+    h1 {
+      margin-top: 15px;
+      }
+    p.margin{
+      margin-left:90px;
+      margin-right:90px;
+    }
+
+  </style>
+</head>
+
+<body>
+<h2>Movies with main characters</h2>
+<p>Click on the buttons inside the tabbed menu:</p>
+
+<div class="tab"><center>
+  <button class="tablinks" onclick="movies(event, 'Avengers')">The Avengers (2012)</button>
+  <button class="tablinks" onclick="movies(event, 'JL')">Justice League (2017)</button>
+  <button class="tablinks" onclick="movies(event, '6Under')">6 Underground (2019)</button>
+</div></center>
+
+<!-- AVENGERS -->
+  <div id="Avengers" class="tabcontent">
+    <p class="margin"><b>Avengers (2012)</b> - Nick Fury is the director of S.H.I.E.L.D., an international peace-keeping agency. The agency is a who's who of Marvel Super Heroes, with Iron Man, The Incredible Hulk, Thor, Captain America, Hawkeye and Black Widow. When global security is threatened by Loki and his cohorts, Nick Fury and his team will need all their powers to save the world from disaster which is formed by Loki and his team</p>
+      <div class="container">
+        <div class="row">      
+            <div class="col-sm" style="background-color:#ccc;">
+              <h1 style="background-color:#f1f1f1; font-size:30px;" align="center"><b>Iron Man</b></h1>
+                <center><img src="ironman.jpg"></center>
+                <p>A self-described genius, billionaire, playboy, and philanthropist with an electromechanical suit of armor of his own invention.&nbsp;<a href="https://en.wikipedia.org/wiki/The_Avengers_(2012_film)" target="blank">Read more</a> </p> 
+            </div>
+
+            <div class="col-sm" style="background-color:#f1f1f1;">
+              <h1 style="background-color:#ccc; font-size:30px;" align="center"><b>Captain America</b></h1>
+              <center><img src="cap.jpg"></center>
+              <p>A World War II veteran who was enhanced to the peak of human physicality by an experimental serum and frozen in suspended animation before waking up in the modern world.&nbsp;<a href="https://en.wikipedia.org/wiki/The_Avengers_(2012_film)" target="blank">Read more</a> </p>
+            </div>
+
+            <div class="col-sm" style="background-color:#ccc;">
+              <h1 style="background-color:#f1f1f1; font-size:30px;" align="center"><b>Thor Odinson</b></h1>
+              <center><img src="thor.jpg" width="300" height="480"></center>
+              <p>The crown prince of Asgard, based on the Norse mythological deity of the same name.&nbsp;<a href="https://en.wikipedia.org/wiki/The_Avengers_(2012_film)" target="blank">Read more</a> </p>
+            </div>          
+        </div>   
+
+        <div class="row">    
+          <div class="col-sm" style="background-color:#f1f1f1;">
+            <h1 style="background-color:#ccc; font-size:30px;" align="center"><b>Hulk</b></h1>
+            <center><img src="hulk.jpg"></center>
+            <p>A genius scientist who, because of exposure to gamma radiation, transforms into a monster when enraged or agitated.&nbsp;<a href="https://en.wikipedia.org/wiki/The_Avengers_(2012_film)" target="blank">Read more</a> </p>
+          </div>
+
+          <div class="col-sm" style="background-color:#ccc;">
+            <h1 style="background-color:#f1f1f1; font-size:30px;" align="center"><b>Hawkeye</b></h1>
+            <center><img src="hawkeye.jpg"></center>
+            <p>A master archer working as an agent for S.H.I.E.L.D.&nbsp;<a href="https://en.wikipedia.org/wiki/The_Avengers_(2012_film)" target="blank">Read more</a> </p>
+          </div>
+
+          <div class="col-sm" style="background-color:#f1f1f1;">
+            <h1 style="background-color:#ccc; font-size:30px;" align="center"><b>Black Widow</b></h1>
+            <center><img src="blackwidow.jpg" width="300" height="480"></center>
+            <p>A highly trained spy working for S.H.I.E.L.D.&nbsp;<a href="https://en.wikipedia.org/wiki/The_Avengers_(2012_film)" target="blank">Read more</a> </p>
+          </div>
+        </div>
+      </div>
+  </div>
+
+<!-- JUSTICE LEAGUE -->
+  <div id="JL" class="tabcontent">
+    <p class="margin"><b>Justice League (2017)</b> - Fueled by his restored faith in humanity and inspired by Superman's selfless act, Bruce Wayne enlists the help of his newfound ally, Diana Prince, to face an even greater enemy. Together, Batman and Wonder Woman work quickly to find and recruit a team of meta-humans to stand against this newly awakened threat. But despite the formation of this unprecedented league of heroes-Batman, Wonder Woman, Aquaman, Cyborg and The Flash-it may already be too late to save the planet from an assault of catastrophic proportions.</p>
+      <div class="container">
+      <div class="row">      
+          <div class="col-sm" style="background-color:#ccc;">
+            <h1 style="background-color:#f1f1f1; font-size:30px;" align="center"><b>Batman</b></h1>
+              <center><img src="batman.jpg" width="300" height="480"></center>
+              <p>A wealthy socialite, and the owner of Wayne Enterprises. He dedicates himself to protecting Gotham City from its criminal underworld as a highly trained, masked vigilante equipped with various tools and weapons.&nbsp;<a href="https://en.wikipedia.org/wiki/Justice_League_(film)" target="blank">Read more</a> </p> 
+          </div>
+
+          <div class="col-sm" style="background-color:#f1f1f1;">
+            <h1 style="background-color:#ccc; font-size:30px;" align="center"><b>Superman</b></h1>
+            <center><img src="superman.jpg" width="300" height="480"></center>
+            <p>A member of, and inspiration for, the Justice League. He is a Kryptonian survivor, and a journalist for the Daily Planet based in Metropolis.&nbsp;<a href="https://en.wikipedia.org/wiki/Justice_League_(film)" target="blank">Read more</a> </p>
+          </div>
+
+          <div class="col-sm" style="background-color:#ccc;">
+            <h1 style="background-color:#f1f1f1; font-size:30px;" align="center"><b>Wonder Woman</b></h1>
+            <center><img src="wonder.jpg" width="300" height="480"></center>
+            <p>An antiquities dealer, acquaintance of Wayne, and an immortal Amazonian warrior, who is the crown princess of Themyscira and daughter of Hippolyta and Zeus. She is endowed with metahuman attributes and abilities inherited from her parents.&nbsp;<a href="https://en.wikipedia.org/wiki/Justice_League_(film)" target="blank">Read more</a> </p>
+          </div>          
+      </div>   
+
+      <div class="row">    
+        <div class="col-sm" style="background-color:#f1f1f1;">
+          <h1 style="background-color:#ccc; font-size:30px;" align="center"><b>Aquaman</b></h1>
+          <center><img src="aquaman.jpg" width="300" height="480"></center>
+          <p>Half-human and half Atlantean metahuman with superhuman strength and aquatic abilities.&nbsp;<a href="https://en.wikipedia.org/wiki/Justice_League_(film)" target="blank">Read more</a> </p>
+        </div>
+
+        <div class="col-sm" style="background-color:#ccc;">
+          <h1 style="background-color:#f1f1f1; font-size:30px;" align="center"><b>Cyborg</b></h1>
+          <center><img src="cyborg.jpg" width="300" height="480"></center>
+          <p>A former college athlete who, after being cybernetically reconstructed after a nearly fatal car accident, is turned into a techno-organic being enhanced by reactive, adaptive biomimetic alien technology.&nbsp;<a href="https://en.wikipedia.org/wiki/Justice_League_(film)" target="blank">Read more</a> </p>
+        </div>
+
+        <div class="col-sm" style="background-color:#f1f1f1;">
+          <h1 style="background-color:#ccc; font-size:30px;" align="center"><b>The Flash</b></h1>
+          <center><img src="flash.jpg" width="300" height="480"></center>
+          <p>A Central City University student, who can move at superhuman speeds with his ability to tap into the Speed Force.&nbsp;<a href="https://en.wikipedia.org/wiki/Justice_League_(film)" target="blank">Read more</a> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- 6 Underground -->
+<div id="6Under" class="tabcontent">
+  <p class="margin"><b>6 Underground (2019)</b> - What's the best part of being dead? It's the freedom. The freedom to fight the evil which lurks in our world. 6 Underground's group of unnamed individuals have chosen to change the future. The team's brought together by enigmatic leader code-named 'One', whose sole mission is to ensure that, he and his fellow teammates will have their actions remembered.
+  </p>
+      <div class="container">
+        <div class="row">      
+            <div class="col-sm" style="background-color:#ccc;">
+              <h1 style="background-color:#f1f1f1; font-size:30px;" align="center"><b>One</b></h1>
+                <center><img src="one.jpg"></center>
+                <p>A rogue billionaire, One grew up in Lucky B Orphanage and was later educated a Stanford. After developing groundbreaking tracking technology, he presumably worked for the CIA's Operation Black Light, evidenced by the film's opening sequence. One is obsessed with the television show Leave It to Beaver, and remains guarded in terms of his personal life.&nbsp;<a href="https://en.wikipedia.org/wiki/6_Underground_(film)" target="blank">Read more</a> </p> 
+            </div>
+
+            <div class="col-sm" style="background-color:#f1f1f1;">
+              <h1 style="background-color:#ccc; font-size:30px;" align="center"><b>Two</b></h1>
+              <center><img src="two.jpg"></center>
+              <p>6 Underground's CIA Spook, Camille. Her backstory connects to a 2017 CIA mission in which she captured Murat Alimov in Uzbekistan and had him delivered, reluctantly, to his dictator brother, Rovach. She seeks a coup d'état in Turgistan, the country now ruled by Rovach Alimov.&nbsp;<a href="https://en.wikipedia.org/wiki/6_Underground_(film)" target="blank">Read more</a> </p>
+            </div>
+
+            <div class="col-sm" style="background-color:#ccc;">
+              <h1 style="background-color:#f1f1f1; font-size:30px;" align="center"><b>Three</b></h1>
+              <center><img src="three.jpg"></center>
+              <p>The Hitman, Javier. He's Colombian and hopes to please his mother who suffers from memory loss. Javier reflects about a Colombian hit from the past and leaving the victim's daughter without parents. Javier has a romantic relationship with Camille in 6 Underground.&nbsp;<a href="https://en.wikipedia.org/wiki/6_Underground_(film)" target="blank">Read more</a> </p>
+            </div>          
+        </div>   
+
+        <div class="row">    
+          <div class="col-sm" style="background-color:#f1f1f1;">
+            <h1 style="background-color:#ccc; font-size:30px;" align="center"><b>Four</b></h1>
+            <center><img src="four.jpg"></center>
+            <p>The Skywalker, Billy. He was recruited by One after a failed mission to steal the jewel of the Kalahari. Four falls from a building during the heist, survives, and then comes face to face with One, who initially pretends to be a bad guy.&nbsp;<a href="https://en.wikipedia.org/wiki/6_Underground_(film)" target="blank">Read more</a> </p>
+          </div>
+
+          <div class="col-sm" style="background-color:#ccc;">
+            <h1 style="background-color:#f1f1f1; font-size:30px;" align="center"><b>Five</b></h1>
+            <center><img src="five.jpg"></center>
+            <p>The Doctor, Amelia. Little is revealed about her backstory. Five generally appears to be kind and less abrasive than her comrades in 6 Underground.&nbsp;<a href="https://en.wikipedia.org/wiki/6_Underground_(film)" target="blank">Read more</a> </p>
+          </div>
+
+          <div class="col-sm" style="background-color:#f1f1f1;">
+            <h1 style="background-color:#ccc; font-size:30px;" align="center"><b>Seven</b></h1>
+            <center><img src="seven.jpg"></center>
+            <p>The Operator, Blaine, who joins the team after Six's death. He first appears as a sniper during a war mission in Afghanistan's Helmand province. Blaine's Delta team dies after a truck explosion, in which he's ordered by superiors not to shoot.&nbsp;<a href="https://en.wikipedia.org/wiki/6_Underground_(film)" target="blank">Read more</a> </p>
+          </div>
+        </div>
+      </div>
+</div>
+
+<script>
+function movies(evt, movname) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(movname).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+   
+</body>
+</html> 
